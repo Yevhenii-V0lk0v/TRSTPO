@@ -3,7 +3,7 @@ package trstpo.lab1.modifier.blur;
 import trstpo.lab1.modifier.blur.thread.GaussianBlurRunnable;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -63,9 +63,11 @@ public class GaussianBlur {
 				summation += weights[i][j];
 			}
 		}
-		for (int i = 0; i < weights.length; i++) {
-			for (int j = 0; j < weights[i].length; j++) {
-				weights[i][j] /= summation;
+		if (summation > 0) {
+			for (int i = 0; i < weights.length; i++) {
+				for (int j = 0; j < weights[i].length; j++) {
+					weights[i][j] /= summation;
+				}
 			}
 		}
 		return weights;

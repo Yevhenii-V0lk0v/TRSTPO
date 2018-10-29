@@ -1,7 +1,7 @@
 package trstpo.lab1.modifier;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JPanel;
+import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 public class ImagePanel extends JPanel {

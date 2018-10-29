@@ -1,6 +1,6 @@
 package trstpo.lab1;
 
-import java.awt.*;
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 
 public class ImageComparator {

@@ -25,7 +25,6 @@ public class ImageExpander {
 	public BufferedImage expandImage(BufferedImage src, int expansion, int procNum) throws InterruptedException {
 		int expansionSize = expansion * 2;
 		BufferedImage dst = new BufferedImage(src.getWidth() + expansionSize, src.getHeight() + expansionSize, src.getType());
-		dst.getHeight();
 		int step = dst.getHeight() / procNum;
 		ExecutorService executorService = Executors.newCachedThreadPool();
 		for (int i = 0; i < dst.getHeight(); i += step) {

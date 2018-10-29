@@ -1,6 +1,6 @@
 package trstpo.lab1.modifier.blur.thread;
 
-import java.awt.*;
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 
 public class GaussianBlurRunnable implements Runnable {
@@ -60,6 +60,6 @@ public class GaussianBlurRunnable implements Runnable {
 				summation += color;
 			}
 		}
-		return (int) summation;
+		return (int) Math.round(summation);
 	}
 }

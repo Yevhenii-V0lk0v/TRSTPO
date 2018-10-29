@@ -5,8 +5,10 @@ import trstpo.lab1.modifier.blur.GaussianBlur;
 import trstpo.lab1.modifier.expand.ImageExpander;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.WindowConstants;
+import java.awt.GridLayout;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
