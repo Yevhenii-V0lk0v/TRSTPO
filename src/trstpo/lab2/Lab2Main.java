@@ -1,5 +1,7 @@
 package trstpo.lab2;
 
+import trstpo.lab2.volkov.Lab2VolkovPresentation;
+
 public class Lab2Main {
 
 	/**
@@ -26,6 +28,7 @@ public class Lab2Main {
 				break;
 			}
 			case "7": {
+				Lab2VolkovPresentation.presentSolution();
 				break;
 			}
 			default:
