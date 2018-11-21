@@ -1,8 +1,8 @@
-package trstpo.lab2.volkov.container;
+package trstpo.lab2.container;
 
-import trstpo.lab2.volkov.user.Gal;
-import trstpo.lab2.volkov.user.Guy;
-import trstpo.lab2.volkov.user.User;
+import trstpo.lab2.user.Gal;
+import trstpo.lab2.user.Guy;
+import trstpo.lab2.user.User;
 
 import java.util.ArrayList;
 import java.util.List;

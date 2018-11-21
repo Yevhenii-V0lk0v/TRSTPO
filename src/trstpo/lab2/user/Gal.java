@@ -1,6 +1,6 @@
-package trstpo.lab2.volkov.user;
+package trstpo.lab2.user;
 
-import trstpo.lab2.volkov.container.ShowerRoom;
+import trstpo.lab2.container.ShowerRoom;
 
 public final class Gal extends User {
 	public Gal(ShowerRoom showerRoom) {
